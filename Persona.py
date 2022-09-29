@@ -35,4 +35,7 @@ class Persona:
         else:
             return False
 
+    #Polimorfismo significa el tener diferentes funcionalidades a través de las clases heredadas. Diferente comportamiento
+    def que_haces(self):
+        raise NotImplementedError
     
